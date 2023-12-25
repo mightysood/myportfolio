@@ -1,0 +1,108 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-seriff;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    letter-spacing: 1px;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.slides-navigation .prev,
+.slides-navigation .next {
+    width: 47px;
+    height: 47px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slides-navigation a.prev {
+    left: 20px;
+    background-image: url('../assets/icons/prev.png');
+}
+
+.slides-navigation a.next {
+    right: 20px;
+    background-image: url('../assets/icons/next.png');
+}
+
+.aboutName {
+    height: 20px;
+    width: 120px;
+}
+
+.titleMessage {
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    top: 50%;
+    z-index: 3;
+    text-align: center;
+    margin-top: -125px;
+}
+
+.titleMessage .heading p,
+.titleMessage .heading span {
+    color: #fff;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+    font-weight: 100;
+    letter-spacing: 4px;
+    word-spacing: 2px;
+}
+
+.titleMessage .heading .main {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.titleMessage .heading .sub {
+    font-size: 25px;
+}
+
+.loader {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+}
+
+.loader .inner {
+    width: 100%;
+    height: 100%;
+    background: url(../assets/loader.gif) center center no-repeat;
+}
+
+#social-media {
+    padding: 0;
+    margin: 10px 0px;
+}
+
+#social-media li {
+    display: inline-block;
+    margin: 20px;
+    transition: transform .25s;
+    /* Animation */
+}
+
+#social-media li:hover {
+    transform: scale(1.5);
+}
+
+#social-media li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#profile-pic {
+    height: 250px;
+    width: 250px;
+}

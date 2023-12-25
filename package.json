@@ -1,0 +1,24 @@
+{
+  "name": "myPortfolio",
+  "version": "1.0.0",
+  "description": "It's Mighty's Journey\u001b",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mightysood/myPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mightysood/myPortfolio/issues"
+  },
+  "homepage": "https://github.com/mightysood/myPortfolio#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
+  }
+}
